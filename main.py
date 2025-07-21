@@ -195,7 +195,7 @@ def main() -> None:
     application.run_webhook(
         listen="0.0.0.0",
         port=port,
-    webhook_url=f"https://your-actual-render-app-name.onrender.com/{bot_token}"",
+    webhook_url=f"https://your-actual-render-app-name.onrender.com/{bot_token}",
         url_path=bot_token
     )
 
