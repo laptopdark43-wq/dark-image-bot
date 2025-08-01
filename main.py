@@ -77,7 +77,7 @@ async def imagine_command(update: Update, context: ContextTypes.DEFAULT_TYPE) ->
     try:
         # Exact same API call as your VS Code script
         img = client.images.generate(
-            model="provider-1/FLUX.1-kontext-pro",
+            model="provider-4/imagen-4",
             prompt=prompt,
             n=1,
             size="1024*1024"
