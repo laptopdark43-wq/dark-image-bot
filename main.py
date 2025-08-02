@@ -80,7 +80,6 @@ async def imagine_command(update: Update, context: ContextTypes.DEFAULT_TYPE) ->
             model="provider-4/imagen-4",
             prompt=prompt,
             n=1,
-            size="1024*1024"
         )
         
         # Get the URL (same as your print statement)
