@@ -77,7 +77,7 @@ async def imagine_command(update: Update, context: ContextTypes.DEFAULT_TYPE) ->
     try:
         # Exact same API call as your VS Code script
         img = client.images.generate(
-            model="provider-4/imagen-4",
+            model="provider-2/llama-4-scout",
             prompt=prompt,
             n=1,
         )
